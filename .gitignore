@@ -1,0 +1,14 @@
+.git
+.cache/*
+__pycache__
+.pytest_cache/*
+.ipynb_checkpoints/
+.pytest_cache
+build/*
+dist/*
+DEV*
+
+workspace.code-workspace
+src/aspectize/.egg*
+src/aspectize/.test.py
+CODE*
