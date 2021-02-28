@@ -1,9 +1,5 @@
 
-import os
-import sys
-
-from setuptools import find_packages
-from setuptools import setup
+from setuptools import find_packages, setup
 
 with open("README.md") as f:
     LONG_DESCRIPTION = f.read()
@@ -25,7 +21,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3 :: Only",
-        ]
+        ],
     packages=find_packages(where="src/aspectize"),
     package_dir={"": "src/aspectize/"},
     long_description_content_type="text/markdown",
